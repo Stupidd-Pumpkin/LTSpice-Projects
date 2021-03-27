@@ -1,0 +1,46 @@
+Circuit: * C:\Users\Sameer\Desktop\DFTBA\Projects\Inductive PnD\Simulations\Draft1.asc
+
+Direct Newton iteration for .op point succeeded.
+N-Period=1
+Fourier components of I(r1)
+DC component:-0.00185978
+
+Harmonic	Frequency	 Fourier 	Normalized	 Phase  	Normalized
+ Number 	  [Hz]   	Component	 Component	[degree]	Phase [deg]
+    1   	2.712e+07	1.220e-02	1.000e+00	   -4.69°	    0.00°
+    2   	5.424e+07	1.376e-02	1.127e+00	   12.27°	   16.97°
+    3   	8.136e+07	7.294e-03	5.977e-01	   27.66°	   32.35°
+    4   	1.085e+08	1.470e-03	1.204e-01	   57.19°	   61.89°
+    5   	1.356e+08	1.263e-04	1.035e-02	  106.82°	  111.51°
+    6   	1.627e+08	5.508e-04	4.514e-02	  -21.74°	  -17.05°
+    7   	1.898e+08	7.631e-04	6.254e-02	  -64.76°	  -60.07°
+    8   	2.170e+08	4.709e-04	3.859e-02	 -161.25°	 -156.56°
+    9   	2.441e+08	1.673e-03	1.371e-01	  133.02°	  137.71°
+Total Harmonic Distortion: 129.185873%(140.401374%)
+
+
+
+pout: AVG(i(r1)*v(vout))=0.000826001 FROM 0 TO 9.2e-007
+pin: AVG(i(v1)*v(vdd))=-0.0714907 FROM 0 TO 9.2e-007
+pgate: AVG(i(v2)*v(vg))=-0.00345773 FROM 0 TO 9.2e-007
+eff: pout/pin=-0.011554
+pae: pout/(pin+pgate)=-0.0110209
+
+
+Date: Sun Sep 15 23:01:32 2019
+Total elapsed time: 3.123 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 275172
+traniter = 275168
+tranpoints = 52377
+accept = 36648
+rejected = 15729
+matrix size = 19
+fillins = 2
+solver = Normal
+Matrix Compiler1: 1.02 KB object code size  0.6/0.6/[0.4]
+Matrix Compiler2: 1.44 KB object code size  0.4/0.8/[0.4]
+

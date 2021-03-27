@@ -1,0 +1,20 @@
+.four 27120000Hz I(R1)
+
+.param f=27120000 Rl=500 Ql=20
+;.param C1=3.483990e-11 L=1.898257e-06 C=1.469191e-11
+.param C1=1.42e-10 L=1.84e-07 C=4.8e-11
+.param Lp=5.070000e-07 Rp=1.460000e+00 
+.param Ls=4.740000e-07 Rs=1.130000e+00 
+.param Lc=1.000000e-05 Lcsi=2.000000e-10 Rg=1 Cs=7.500000e-11
+.param Lcab=1.200000e-07 Rcab=5.600000e-01
+K Lp Ls 2.000000e-01
+;.step param Rl 100 1100 100
+
+.meas Pin AVG (I(V1)*V(Vdd))
+.meas Pgate AVG (I(V2)*V(Vg))
+.meas Ptx AVG (I(Lp)*V(Vtx))
+.meas Pout AVG (I(R1)*V(Vout))
+.meas PTE_PA param Ptx/Pin
+.meas PTE_coil param Pout/Ptx
+.meas PTE param Pout/Pin
+.meas PAE param Pout/(Pin+Pgate)

@@ -1,0 +1,83 @@
+Circuit: * C:\Users\Sameer\Desktop\DFTBA\Projects\Inductive PnD\Simulations\Draft4.asc
+
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+Gmin = 1.07374
+Gmin = 0.115292
+Gmin = 0.0123794
+Gmin = 0.00132923
+Gmin = 0.000142725
+Gmin = 1.5325e-005
+Gmin = 1.6455e-006
+Gmin = 1.76685e-007
+Gmin = 1.89714e-008
+Gmin = 2.03704e-009
+Gmin = 2.18725e-010
+Gmin = 2.34854e-011
+Gmin = 2.52173e-012
+Gmin = 2.70769e-013
+Gmin = 0
+Gmin stepping succeeded in finding the operating point.
+
+Ignoring empty pin current: Ix(u1:9)
+Ignoring empty pin current: Ix(u4:9)
+Ignoring empty pin current: Ix(u6:9)
+Ignoring empty pin current: Ix(u8:9)
+Ignoring empty pin current: Ix(u1:9)
+Ignoring empty pin current: Ix(u4:9)
+Ignoring empty pin current: Ix(u6:9)
+Ignoring empty pin current: Ix(u8:9)
+N-Period=1
+Fourier components of I(ls)
+DC component:0.00115283
+
+Harmonic	Frequency	 Fourier 	Normalized	 Phase  	Normalized
+ Number 	  [Hz]   	Component	 Component	[degree]	Phase [deg]
+    1   	2.712e+07	1.952e-02	1.000e+00	  128.18°	    0.00°
+    2   	5.424e+07	5.333e-03	2.732e-01	   63.86°	  -64.32°
+    3   	8.136e+07	1.670e-03	8.555e-02	  135.13°	    6.96°
+    4   	1.085e+08	8.126e-04	4.163e-02	 -165.68°	 -293.85°
+    5   	1.356e+08	3.661e-04	1.876e-02	 -100.20°	 -228.38°
+    6   	1.627e+08	2.499e-04	1.280e-02	  -10.13°	 -138.30°
+    7   	1.898e+08	2.246e-04	1.151e-02	   51.72°	  -76.46°
+    8   	2.170e+08	1.485e-04	7.611e-03	  125.98°	   -2.20°
+    9   	2.441e+08	1.184e-04	6.066e-03	 -171.69°	 -299.87°
+Total Harmonic Distortion: 29.059555%(29.070460%)
+
+
+
+
+Measurement "pin" FAIL'ed
+pgate: AVG(-(i(v2)*v(vg)))=1.37718e-005 FROM 0 TO 0.002
+ptx: AVG(i(lp)*v(vtx))=0.00160909 FROM 0 TO 0.002
+prx: AVG((i(ls)+i(cs))*v(vrx))=-0.00141946 FROM 0 TO 0.002
+pout: AVG(i(r1)*(v(vout+)-v(vout-)))=3.88266e-007 FROM 0 TO 0.002
+
+Measurement "pte_pa" FAIL'ed
+pte_coil: 100*prx/ptx=-88.2148
+pte_rect: 100*pout/prx=-0.0273532
+
+Measurement "pte" FAIL'ed
+
+Measurement "pae" FAIL'ed
+
+
+Date: Fri Nov 01 00:27:58 2019
+Total elapsed time: 10996.960 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 85123639
+traniter = 85123163
+tranpoints = 20965391
+accept = 14819727
+rejected = 6145664
+matrix size = 202
+fillins = 32
+solver = Normal
+Thread vector: 139.0/67.9[8] 31.0/17.6[8] 13.9/10.6[3] 0.9/10.5[1]  2592/500
+Matrix Compiler1: 7.93 KB object code size  4.0/2.3/[1.0]
+Matrix Compiler2: 11.85 KB object code size  3.3/4.5/[1.7]
+

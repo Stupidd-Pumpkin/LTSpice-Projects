@@ -1,0 +1,49 @@
+Circuit: * C:\Users\Sameer\Desktop\DFTBA\Projects\Inductive PnD\Simulations\Draft2.asc
+
+Direct Newton iteration for .op point succeeded.
+N-Period=1
+Fourier components of I(r1)
+DC component:1.30586e-005
+
+Harmonic	Frequency	 Fourier 	Normalized	 Phase  	Normalized
+ Number 	  [Hz]   	Component	 Component	[degree]	Phase [deg]
+    1   	2.712e+07	6.611e-03	1.000e+00	   54.11°	    0.00°
+    2   	5.424e+07	3.148e-05	4.763e-03	   70.45°	   16.34°
+    3   	8.136e+07	5.951e-05	9.001e-03	  -98.44°	 -152.55°
+    4   	1.085e+08	2.302e-05	3.483e-03	  150.39°	   96.28°
+    5   	1.356e+08	1.956e-05	2.959e-03	 -127.60°	 -181.72°
+    6   	1.627e+08	1.048e-05	1.585e-03	  145.27°	   91.16°
+    7   	1.898e+08	9.857e-06	1.491e-03	 -175.45°	 -229.56°
+    8   	2.170e+08	4.684e-06	7.085e-04	  104.49°	   50.38°
+    9   	2.441e+08	2.875e-06	4.349e-04	   89.84°	   35.72°
+Total Harmonic Distortion: 1.140269%(1.160703%)
+
+
+
+pin: AVG(i(v1)*v(vdd))=-0.0197926 FROM 0 TO 9.2e-007
+pgate: AVG(i(v2)*v(vg))=-0.000364564 FROM 0 TO 9.2e-007
+ptx: AVG(i(lp)*v(vtx))=0.0126455 FROM 0 TO 9.2e-007
+pout: AVG(i(r1)*v(vout))=0.01091 FROM 0 TO 9.2e-007
+pte_pa: ptx/pin=-0.638901
+pte_coil: pout/ptx=0.862756
+pte: pout/pin=-0.551215
+pae: pout/(pin+pgate)=-0.541246
+
+
+Date: Sun Oct 13 12:07:25 2019
+Total elapsed time: 1.325 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 144585
+traniter = 144581
+tranpoints = 35748
+accept = 24923
+rejected = 10825
+matrix size = 15
+fillins = 0
+solver = Normal
+Matrix Compiler1: 730 bytes object code size  0.1/0.1/[0.1]
+Matrix Compiler2: off  [0.1]/0.1/0.1
+

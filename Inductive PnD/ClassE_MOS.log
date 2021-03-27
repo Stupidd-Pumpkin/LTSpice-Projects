@@ -1,0 +1,49 @@
+Circuit: * C:\Users\Sameer\Desktop\DFTBA\Projects\Inductive PnD\Simulations\ClassE_MOS.asc
+
+Direct Newton iteration for .op point succeeded.
+N-Period=1
+Fourier components of I(r1)
+DC component:-0.000150038
+
+Harmonic	Frequency	 Fourier 	Normalized	 Phase  	Normalized
+ Number 	  [Hz]   	Component	 Component	[degree]	Phase [deg]
+    1   	2.717e+07	2.611e-01	1.000e+00	  120.68°	    0.00°
+    2   	5.434e+07	1.591e-02	6.094e-02	  167.95°	   47.27°
+    3   	8.151e+07	2.750e-03	1.053e-02	 -156.52°	 -277.20°
+    4   	1.087e+08	1.207e-03	4.623e-03	   73.16°	  -47.52°
+    5   	1.359e+08	1.158e-03	4.434e-03	 -130.20°	 -250.88°
+    6   	1.630e+08	8.879e-04	3.401e-03	 -136.64°	 -257.32°
+    7   	1.902e+08	1.852e-04	7.095e-04	   17.82°	 -102.86°
+    8   	2.174e+08	3.126e-04	1.197e-03	  -51.35°	 -172.03°
+    9   	2.445e+08	4.317e-05	1.653e-04	  140.69°	   20.01°
+Total Harmonic Distortion: 6.227985%(6.231803%)
+
+
+
+pout: AVG(i(r1)*v(vout))=0.685232 FROM 0 TO 9.2e-006
+pin: AVG(i(v1)*v(vdd))=-0.78611 FROM 0 TO 9.2e-006
+eff: pout/pin=-0.871675
+pgate: AVG(i(v2)*v(vg))=-0.0107789 FROM 0 TO 9.2e-006
+pae: pout/(pin+pgate)=-0.859884
+c1: 0.1836/(2*3.1415*f*rload)=5.38748e-011
+l: ql*rload/(2*pi*f)=1.17371e-006
+c: 1/((ql-1.1525)*2*pi*f*rload)=3.3165e-011
+
+
+Date: Thu Aug 29 11:14:16 2019
+Total elapsed time: 1.209 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 963222
+traniter = 963217
+tranpoints = 292910
+accept = 207890
+rejected = 85020
+matrix size = 12
+fillins = 4
+solver = Normal
+Matrix Compiler1: 820 bytes object code size  0.1/0.1/[0.1]
+Matrix Compiler2: 968 bytes object code size  0.1/0.1/[0.1]
+

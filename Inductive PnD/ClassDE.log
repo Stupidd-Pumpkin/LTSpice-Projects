@@ -1,0 +1,99 @@
+Circuit: * C:\Users\Sameer\Desktop\DFTBA\Projects\Ultrasonic PnD 2\Simulations\ClassDE.asc
+
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+Gmin = 1.07374
+Gmin = 0.115292
+Gmin = 0.0123794
+Gmin = 0.00132923
+Gmin = 0.000142725
+Gmin = 1.5325e-005
+Gmin = 1.6455e-006
+Gmin = 1.76685e-007
+Gmin = 1.89714e-008
+Gmin = 2.03704e-009
+Gmin = 2.18725e-010
+Gmin = 2.34854e-011
+vernier = 0.5
+vernier = 0.25
+vernier = 0.125
+Gmin = 1.06885e-011
+vernier = 0.0625
+vernier = 0.03125
+vernier = 0.015625
+vernier = 0.0078125
+Gmin = 1.06261e-011
+vernier = 0.0104167
+Gmin = 1.03803e-011
+vernier = 0.0138889
+vernier = 0.0185185
+Gmin = 9.98051e-012
+vernier = 0.0246913
+vernier = 0.0329218
+Gmin = 9.37531e-012
+vernier = 0.0438957
+Gmin = 8.4978e-012
+vernier = 0.0585276
+vernier = 0.0780367
+Gmin = 7.20926e-012
+vernier = 0.104049
+vernier = 0.138732
+Gmin = 5.55365e-012
+vernier = 0.184976
+Gmin = 3.69447e-012
+vernier = 0.246634
+vernier = 0.328846
+Gmin = 1.88102e-012
+vernier = 0.438461
+vernier = 0.584614
+Gmin = 6.55013e-013
+vernier = 0.779486
+Gmin = 1.30422e-013
+vernier = 1
+Gmin = 0
+Gmin stepping succeeded in finding the operating point.
+
+N-Period=1
+Fourier components of I(r1)
+DC component:0.000184321
+
+Harmonic	Frequency	 Fourier 	Normalized	 Phase  	Normalized
+ Number 	  [Hz]   	Component	 Component	[degree]	Phase [deg]
+    1   	2.717e+07	1.684e-01	1.000e+00	  102.96°	    0.00°
+    2   	5.434e+07	7.286e-03	4.328e-02	  130.49°	   27.52°
+    3   	8.151e+07	4.212e-03	2.502e-02	   99.40°	   -3.57°
+    4   	1.087e+08	1.397e-03	8.295e-03	  131.45°	   28.49°
+    5   	1.359e+08	9.114e-04	5.414e-03	  156.20°	   53.24°
+    6   	1.630e+08	6.869e-04	4.080e-03	  144.52°	   41.56°
+    7   	1.902e+08	1.069e-05	6.353e-05	  -50.54°	 -153.51°
+    8   	2.174e+08	3.564e-04	2.117e-03	  166.98°	   64.02°
+    9   	2.445e+08	2.486e-04	1.476e-03	  131.90°	   28.94°
+Total Harmonic Distortion: 5.118773%(5.127178%)
+
+
+
+pout: AVG(i(r1)*v(vout))=0.28409 FROM 0 TO 9.2e-006
+pin: AVG(i(v1)*v(vdd))=-1.26704 FROM 0 TO 9.2e-006
+eff: pout/pin=-0.224215
+pgate: AVG(i(v2)*v(vg))=-0.0917756 FROM 0 TO 9.2e-006
+pae: pout/(pin+pgate)=-0.209072
+
+
+Date: Thu Aug 29 01:19:09 2019
+Total elapsed time: 6.367 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 722453
+traniter = 720890
+tranpoints = 198318
+accept = 153056
+rejected = 45262
+matrix size = 18
+fillins = 8
+solver = Normal
+Matrix Compiler1: 1.27 KB object code size  0.7/0.5/[0.3]
+Matrix Compiler2: 1.46 KB object code size  0.6/0.7/[0.5]
+

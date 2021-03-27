@@ -1,0 +1,49 @@
+Circuit: * C:\Users\Sameer\Desktop\DFTBA\Projects\Inductive PnD\Simulations\ClassE_Coil.asc
+
+Direct Newton iteration for .op point succeeded.
+N-Period=1
+Fourier components of I(r1)
+DC component:-1.69439e-005
+
+Harmonic	Frequency	 Fourier 	Normalized	 Phase  	Normalized
+ Number 	  [Hz]   	Component	 Component	[degree]	Phase [deg]
+    1   	2.712e+07	3.483e-02	1.000e+00	  -32.68°	    0.00°
+    2   	5.424e+07	1.753e-03	5.032e-02	   68.99°	  101.66°
+    3   	8.136e+07	4.413e-04	1.267e-02	 -166.68°	 -134.01°
+    4   	1.085e+08	1.298e-04	3.726e-03	  -15.96°	   16.71°
+    5   	1.356e+08	9.757e-05	2.801e-03	 -162.10°	 -129.42°
+    6   	1.627e+08	8.988e-05	2.581e-03	   18.42°	   51.09°
+    7   	1.898e+08	9.856e-06	2.830e-04	  -12.38°	   20.30°
+    8   	2.170e+08	3.722e-05	1.069e-03	   36.50°	   69.17°
+    9   	2.441e+08	1.507e-05	4.327e-04	  132.96°	  165.64°
+Total Harmonic Distortion: 5.217564%(5.218310%)
+
+
+
+pout: AVG(i(r1)*v(vout))=0.0304127 FROM 0 TO 9.2e-006
+pin: AVG(i(v1)*v(vdd))=-0.0643475 FROM 0 TO 9.2e-006
+eff: pout/pin=-0.472632
+pgate: AVG(i(v2)*v(vg))=-0.000549672 FROM 0 TO 9.2e-006
+pae: pout/(pin+pgate)=-0.468629
+ptx: AVG(i(lp)*v(vtx))=0.0388094 FROM 0 TO 9.2e-006
+
+Measurement "prx" FAIL'ed
+
+
+Date: Sun Sep 15 12:19:54 2019
+Total elapsed time: 28.763 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 1849918
+traniter = 1849914
+tranpoints = 653005
+accept = 452121
+rejected = 200884
+matrix size = 14
+fillins = 0
+solver = Normal
+Matrix Compiler1: 680 bytes object code size  0.1/0.1/[0.1]
+Matrix Compiler2: 1012 bytes object code size  0.1/0.1/[0.1]
+

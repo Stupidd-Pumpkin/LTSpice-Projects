@@ -1,0 +1,44 @@
+Circuit: * C:\Users\Sameer\Desktop\DFTBA\Projects\Ultrasonic PnD 2\Simulations\ClassE_6_78MHz.asc
+
+Direct Newton iteration for .op point succeeded.
+N-Period=1
+Fourier components of I(r1)
+DC component:0.290248
+
+Harmonic	Frequency	 Fourier 	Normalized	 Phase  	Normalized
+ Number 	  [Hz]   	Component	 Component	[degree]	Phase [deg]
+    1   	2.717e+07	3.902e-02	1.000e+00	   -8.70°	    0.00°
+    2   	5.434e+07	9.832e-03	2.520e-01	   69.89°	   78.59°
+    3   	8.151e+07	4.768e-03	1.222e-01	  156.10°	  164.80°
+    4   	1.087e+08	2.429e-03	6.225e-02	 -119.28°	 -110.58°
+    5   	1.359e+08	1.617e-03	4.143e-02	   -7.39°	    1.31°
+    6   	1.630e+08	1.725e-03	4.421e-02	   26.03°	   34.73°
+    7   	1.902e+08	1.065e-03	2.730e-02	  120.48°	  129.18°
+    8   	2.174e+08	8.157e-04	2.090e-02	 -161.30°	 -152.60°
+    9   	2.445e+08	6.274e-04	1.608e-02	  -75.47°	  -66.77°
+Total Harmonic Distortion: 29.562721%(29.795978%)
+
+
+
+pout: AVG(i(r1)*v(vout))=0.725259 FROM 0 TO 7.375e-005
+pin: AVG(i(v1)*v(vdd))=-0.793503 FROM 0 TO 7.375e-005
+eff: pout/pin=-0.913996
+
+
+Date: Wed Aug 28 19:54:18 2019
+Total elapsed time: 6.214 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 960225
+traniter = 960221
+tranpoints = 231693
+accept = 183887
+rejected = 47806
+matrix size = 10
+fillins = 0
+solver = Normal
+Matrix Compiler1:      25 opcodes  0.1/[0.1]/0.1
+Matrix Compiler2: off  [0.1]/0.1/0.1
+
