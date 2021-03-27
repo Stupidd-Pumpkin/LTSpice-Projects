@@ -1,0 +1,21 @@
+Circuit: * C:\Users\HP\Desktop\SnR\LTSpice\Draft5.asc
+
+.OP point found by inspection.
+
+Date: Tue May 14 03:48:45 2019
+Total elapsed time: 0.024 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 108
+traniter = 108
+tranpoints = 55
+accept = 55
+rejected = 0
+matrix size = 3
+fillins = 0
+solver = Normal
+Matrix Compiler1: 50 bytes object code size  0.0/0.0/[0.0]
+Matrix Compiler2: 175 bytes object code size  0.0/0.0/[0.0]
+
